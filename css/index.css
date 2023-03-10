@@ -194,42 +194,47 @@
     background-color: #CFA670;
 }
 
-.e_car{
+.e_car {
     height: 600px;
 }
 
 
-.part2{
+.part2 {
     width: 100%;
     min-height: 450px;
     float: left;
 }
-.e_left{
+
+.e_left {
     width: 100%;
     min-height: 450px;
     float: left;
 }
-.e_t{
+
+.e_t {
     width: 100%;
     min-height: 100px;
     float: left;
     text-align: center;
     margin-top: 50px;
 }
-.e_t h3{
+
+.e_t h3 {
     color: #CFA670;
     font-family: "Tangerine", Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
 }
-.e_t h2{
+
+.e_t h2 {
     font-family: "Oswald", Arial, sans-serif;
     font-style: normal;
     color: #232323;
     font-weight: 500;
 
 }
-.e_p{
+
+.e_p {
     width: 100%;
     min-height: 30px;
     float: left;
@@ -239,12 +244,14 @@
     justify-content: center;
     align-items: center;
 }
-.e_c{
+
+.e_c {
     width: 100%;
     min-height: 150px;
     float: left;
 }
-.e_c p{
+
+.e_c p {
     text-align: center;
     font-family: "Cabin", Arial, sans-serif;
     font-style: normal;
@@ -252,22 +259,26 @@
     font-size: 17px;
     font-weight: 400;
 }
-.ee_b{
+
+.ee_b {
     width: 100%;
     min-height: 50px;
     float: left;
     text-align: center;
 }
-.elya_btn{
+
+.elya_btn {
     background-color: transparent;
     border-bottom: 2px solid #CFA670;
     border-radius: 0px;
 }
-.elya_btn:hover{
+
+.elya_btn:hover {
     color: #CFA670;
     transition: 0.4s;
 }
-.e_right{
+
+.e_right {
     margin-top: 40px;
     width: 100%;
     min-height: 400px;
@@ -275,11 +286,11 @@
 }
 
 
-.part3{
+.part3 {
     width: 100%;
-    min-height: 400px;
+    min-height: 500px;
     float: left;
-    background: rgba(0, 0, 0, 0.6) url("../img/parallax-1.jpg") ;
+    background: rgba(0, 0, 0, 0.6) url("../img/parallax-1.jpg");
     background-position: center;
     background-blend-mode: darken;
     display: flex;
@@ -287,10 +298,12 @@
     align-items: center;
 
 }
-.text_{
+
+.text_ {
     text-align: center;
 }
-.text_ h3{
+
+.text_ h3 {
     font-size: 55px;
     color: #CFA670;
     font-family: "Tangerine", Arial, sans-serif;
@@ -299,7 +312,166 @@
     font-weight: 700;
 }
 
-.text_ h2{
+.text_ h2 {
+    font-size: 55px;
+    color: #fff;
+    font-family: "Oswald", Arial, sans-serif;
+    font-style: normal;
+    margin-top: 0 !important;
+    font-weight: 500;
+}
+
+
+.part4 {
+    margin-top: 30px;
+    width: 100%;
+    min-height: 600px;
+    float: left;
+}
+
+.text_top {
+    width: 100%;
+    min-height: 60px;
+    float: left;
+    text-align: center !important;
+}
+
+.text_top h3 {
+    font-size: 50px;
+    color: #CFA670;
+    font-family: "Tangerine", Arial, sans-serif;
+    font-style: normal;
+    padding-bottom: 7px !important;
+    margin-bottom: 0 !important;
+    font-weight: 700;
+}
+
+.text_bottom {
+    width: 100%;
+    min-height: 60px;
+    float: left;
+    text-align: center !important;
+}
+
+.text_bottom h2 {
+    font-size: 40px;
+    font-family: "Oswald", Arial, sans-serif;
+    font-style: normal;
+    margin: 0 !important;
+    color: #232323;
+    font-weight: 500;
+}
+
+.e_carousel {
+    width: 100%;
+    min-height: 400px;
+    float: left;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    height: 400px;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img_elya{
+    width: 100%;
+    height: 330px;
+    float: left;
+}
+
+.elya_name{
+    width: 100%;
+    height: 70px;
+    float: left;
+}
+.elya_name h4{
+    font-family: "Oswald", Arial, sans-serif;
+    font-style: normal;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #232323;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.elya_name p{
+    font-family: "Cabin", Arial, sans-serif;
+    font-style: normal;
+    color: #999;
+    letter-spacing: 0.2px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.elya_name h4:hover{
+    color: #CFA670;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.price{
+    width: 87px;
+    height: 32px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    background-color: #CFA670;
+    position: fixed;
+    color: #ffffff;
+    font-family: "Cabin", Arial, sans-serif;
+    font-style: normal;
+    word-spacing: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.part5{
+    width: 100%;
+    min-height: 500px;
+    float: left;
+    background: rgba(0, 0, 0, 0.6) url("../img/parallax-2-4.jpg");
+    background-position: center;
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text_ {
+    text-align: center;
+}
+
+.text_ h3 {
+    font-size: 55px;
+    color: #CFA670;
+    font-family: "Tangerine", Arial, sans-serif;
+    font-style: normal;
+    margin-bottom: 0 !important;
+    font-weight: 700;
+}
+
+.text_ h2 {
     font-size: 55px;
     color: #fff;
     font-family: "Oswald", Arial, sans-serif;
