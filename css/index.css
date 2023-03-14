@@ -621,3 +621,43 @@
     color: white;
     transition: 0.3s;
 }
+.part7{
+    width: 100%;
+    min-height: 450px;
+    float: left;
+    background-color: black;
+}
+.ename_{
+    width: 100%;
+    min-height: 150px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ename_ h2{
+    font-size: 32px;
+    color: #fff;
+    font-family: "Oswald", Arial, sans-serif;
+    font-style: normal;
+    margin-top: 0 !important;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    text-align: center!important;
+}
+.photozoom{
+    width: 100%;
+    min-height: 350px;
+    float: left;
+    overflow: hidden;
+}
+.photo111{
+    width: 100%;
+    min-height: 350px;
+    float: left;
+    overflow: hidden;
+    transition: transform 0.25s;
+}
+.photo111:hover{
+    transform: scale(1.1);
+}
